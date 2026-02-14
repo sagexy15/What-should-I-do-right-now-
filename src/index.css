@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #FBF9F6;
+  --bg-soft: #F5F1EB;
+  --sidebar: #F0EBE3;
+  --panel: #F7F4EF;
+  --text: #3D3A36;
+  --text-muted: #6B6560;
+  --radius: 1.5rem;
+  --radius-lg: 1.75rem;
+  --shadow-soft: 0 2px 12px -2px rgba(61, 58, 54, 0.04);
+  --shadow-lift: 0 8px 24px -8px rgba(61, 58, 54, 0.08);
+}
+
+.dark {
+  --bg: #2A2826;
+  --bg-soft: #353330;
+  --sidebar: #2F2D2A;
+  --panel: #322F2C;
+  --text: #E8E4DF;
+  --text-muted: #A89F96;
+  --shadow-soft: 0 2px 12px -2px rgba(0, 0, 0, 0.15);
+  --shadow-lift: 0 8px 24px -8px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: hide scrollbar on mobile nav */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Outfit', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+h1, h2, h3 {
+  font-family: 'Outfit', system-ui, sans-serif;
+  font-weight: 600;
+}
+
+/* Smooth micro-interactions */
+button, a, [role="button"] {
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+button:active:not(:disabled), a:active {
+  transform: scale(0.98);
+}
+
+/* Focus ring — soft and accessible */
+button:focus-visible, a:focus-visible {
+  outline: 2px solid var(--text-muted);
+  outline-offset: 2px;
+}
