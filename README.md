@@ -18,10 +18,10 @@ npm run build
 npm run preview
 ```
 
-## What’s included
+## What's included
 
-- **Right now (Home)** — “tell me” / “another one” for a single gentle suggestion; optional mood check-in.
-- **Lately** — Recent suggestions with soft timestamps (“a few minutes ago”, “earlier today”). Stored in `localStorage`.
+- **Right now (Home)** — "tell me" / "another one" for a single gentle suggestion; optional mood check-in.
+- **Lately** — Recent suggestions with soft timestamps ("a few minutes ago", "earlier today"). Stored in `localStorage`.
 - **About** — Short philosophy: not about doing more; doing nothing is allowed.
 - **Settings** — Dark mode, calming vs energizing suggestions, minimal vs playful tone.
 
