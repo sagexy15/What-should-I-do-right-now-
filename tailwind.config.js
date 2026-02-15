@@ -1,3 +1,10 @@
+/* Styling for "What Should I Do":
+   - Uses soft, minimal colors for a cozy feel
+   - Responsive design for mobile and desktop
+   - Clean, simple typography using Outfit font
+*/
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [

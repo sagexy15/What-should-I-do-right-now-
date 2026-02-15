@@ -1,3 +1,9 @@
+// App logic for "What Should I Do":
+// - Displays a cozy suggestion card for small, kind actions
+// - Button generates a new suggestion randomly from a predefined list
+// - Minimal, calming UI with no metrics or tracking
+
+
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter } from 'react-router-dom'

@@ -2,6 +2,9 @@
 
 A cozy, minimal website that gently suggests small, kind actions — for when you feel stuck, overwhelmed, tired, or unsure what to do next. No productivity pressure, no streaks, no metrics. Just soft nudges from a friend.
 
+
+
+
 ## Run locally
 
 ```bash
